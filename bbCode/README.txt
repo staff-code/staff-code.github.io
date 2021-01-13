@@ -11,7 +11,7 @@ StaffCode installation instructions
     <textarea class="sc-input" style="display: none;">{TEXT}</textarea>
 </span>
 <script>globalThis.staffCode === undefined ? document.write("<script src="assets/javascript/staffCode.js"></script>") : globalThis.staffCode = "NO_LOCAL_STAFF_CODE"</script>
-<script>globalThis.staffCode === undefined || globalThis.staffCode === "NO_LOCAL_STAFF_CODE" ? document.write("<script src="https://app.sagittal.org/staffcode/staffCode.js"></script>") : {}</script>
+<script>globalThis.staffCode === undefined || globalThis.staffCode === "NO_LOCAL_STAFF_CODE" ? document.write("<script src="https://staffcode.org/bbCode/staffCode.js"></script>") : {}</script>
 
 If you want the StaffCode your users provide to always be preceded by certain staff code (such as a particular clef and/or code to turn on the staff), you can put any StaffCode you like just before the {TEXT} token.
 
@@ -41,13 +41,13 @@ See the HTML Replacement section for the [staff] code above for further details 
     <textarea class="sc-input" style="display: none;">{TEXT}</textarea>
 </span>
 <script>globalThis.staffCode === undefined ? document.write("<script src="assets/javascript/staffCode.js"></script>") : globalThis.staffCode = "NO_LOCAL_STAFF_CODE"</script>
-<script>globalThis.staffCode === undefined || globalThis.staffCode === "NO_LOCAL_STAFF_CODE" ? document.write("<script src="https://app.sagittal.org/staffcode/staffCode.js"></script>") : {}</script>
+<script>globalThis.staffCode === undefined || globalThis.staffCode === "NO_LOCAL_STAFF_CODE" ? document.write("<script src="https://staffcode.org/bbCode/staffCode.js"></script>") : {}</script>
 
 - Fill in the "Help line" field with:
 
 Convert staffCodes into inline music notation: [sc]/|[/sc]
 
 Optional: if you would rather install the fonts and JavaScript directly on your phpBB server:
-- Download https://app.sagittal.org/staffcode/assets/fonts/BravuraTextBB.otf, https://app.sagittal.org/staffcode/assets/fonts/BravuraTextBB.woff, and https://app.sagittal.org/staffcode/staffCode.js.
+- Download https://staffcode.org/assets/fonts/BravuraTextBB.otf, https://staffcode.org/assets/fonts/BravuraTextBB.woff, and https://staffcode.org/staffCode.js.
 - Drag `BravuraTextBB.otf` and `BravuraTextBB.woff` to your `assets/fonts` folder, along with any other fonts your users may wish to use. SMuFL-compliant fonts will not work out of the box; a non-trivial amount of modification to a font is required to work with StaffCode.
 - Drag `staffCode.js` to your `assets/javascripts` folder.
