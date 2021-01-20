@@ -1,11 +1,11 @@
 {
-  "version": "1.0.181",
+  "version": "1.0.182",
   "name": "staff-code",
   "description": "converts simple text codes into Unicode which in the Bravura Text font displays as sheet music",
   "icons": {
-    "60": "auto/assets/firefox_app_60x60.png",
-    "128": "auto/assets/firefox_app_128x128.png",
-    "512": "auto/assets/firefox_app_512x512.png"
+    "60": "firefox_app_60x60.png",
+    "128": "firefox_app_128x128.png",
+    "512": "firefox_app_512x512.png"
   },
   "developer": {
     "name": null,
